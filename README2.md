@@ -23,5 +23,3 @@
 
   You can download the iris ﬂowers dataset from the UCI Machine Learning repository and place it in your current working directory with the ﬁlename iris.csv. You can learn more about the iris ﬂower classiﬁcation dataset on the UCI Machine Learning Repository page.
 
-# Model
-
