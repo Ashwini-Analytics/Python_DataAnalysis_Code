@@ -19,3 +19,4 @@ The MNIST problem is a dataset developed by Yann LeCun, Corinna Cortes and Chris
 
 # Model
 
+ ![CNN MODEL](https://github.com/Ashwini-Analytics/Python_DataAnalysis_Code/blob/master/Handwritting_digit_recog_CNN.jpg)
