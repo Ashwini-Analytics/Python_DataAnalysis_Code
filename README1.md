@@ -20,3 +20,17 @@ The MNIST problem is a dataset developed by Yann LeCun, Corinna Cortes and Chris
 # Model
 
  ![CNN MODEL](https://github.com/Ashwini-Analytics/Python_DataAnalysis_Code/blob/master/Handwritting_digit_recog_CNN.jpg)
+ 
+ - The ﬁrst hidden layer is a convolutional layer called a Conv2D. The layer has 32 feature maps, with the size of 5×5 and a rectiﬁer activation function. This is the input layer, expecting images with the structure outline above.
+ 
+ - Next we deﬁne a pooling layer that takes the maximum value called MaxPooling2D. It is conﬁgured with a pool size of 2×2.
+ 
+ - The next layer is a regularization layer using dropout called Dropout. It is conﬁgured to randomly exclude 20% of neurons in the layer in order to reduce overﬁtting.
+
+ - Next is a layer that converts the 2D matrix data to a vector called Flatten. It allows the output to be processed by standard fully connected layers.
+ 
+ - Next a fully connected layer with 128 neurons and rectiﬁer activation function is used.
+ 
+ - Finally, the output layer has 10 neurons for the 10 classes and a softmax activation function to output probability-like predictions for each class.
+
+
