@@ -7,4 +7,21 @@
   - Petal width in centimeters.
   -  Class.
   
-  This is a multiclass classiﬁcation problem, meaning that there are more than two classes to be predicted, in fact there are three ﬂower species
+  This is a multiclass classiﬁcation problem, meaning that there are more than two classes to be predicted, in fact there are three ﬂower species.
+
+# Requirements
+
+- Python 2.7
+- Tensorflow
+- Keras
+- numpy
+- matplotlib
+- pandas
+- jupyter notebook
+
+# Dataset
+
+  You can download the iris ﬂowers dataset from the UCI Machine Learning repository and place it in your current working directory with the ﬁlename iris.csv. You can learn more about the iris ﬂower classiﬁcation dataset on the UCI Machine Learning Repository page.
+
+# Model
+
